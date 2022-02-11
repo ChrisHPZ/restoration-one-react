@@ -1,7 +1,7 @@
 import HomeHero from '../images/HomeHero.png';
 const AboveTheFold = () => {
 	return ( 
-		<div className="gradient">
+		<div className="gradient-alt">
 			<div className="container">
 				<div className="grid-two-column">
 					<div className="grid-two-column-child">
@@ -45,6 +45,11 @@ const AboveTheFold = () => {
 							<p>Mold Damage?</p>
 						</div>
 					</div>
+				</div>
+				<div className="content-default">
+					<h2>Or Do You Have Commercial Property Damage?</h2>
+					<p>Restoration 1 is a top-rated commercial property restoration company. We have years of experience and a full range of restoration services for commercial clients. Whether you are a one-man shop, a large warehouse, store, or hospital, or if your business has experienced water, fire, or mold damage as a result of a disaster, count on our team to help you get back to "business as usual" quickly.</p>
+					<a href="https://www.reactjs.org" className="button">See Our Commercial Solutions</a>
 				</div>
 			</div>
 		</div>
