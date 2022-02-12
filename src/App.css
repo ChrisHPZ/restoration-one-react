@@ -44,6 +44,12 @@ a, a:hover, a:visited {
 	background-position:top right;
 	background-size:cover;
 }
+#section-five {
+	background:url('./images/section-five-bg.jpg');
+	background-repeat:no-repeat;
+	background-position:top right;
+	background-size:cover;
+}
 .gradient {
 	background: linear-gradient(0deg,rgba(142,198,228,.5) 0%,rgba(255,255,255,.5) 100%);
 }
@@ -194,4 +200,23 @@ form.get-help-now button {
 .mtb-10 {
 	margin-top:10px;
 	margin-bottom:10px;
+}
+.ptb-30 {
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.grid-four-column {
+	display:grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap:20px;
+}
+.grid-six-column {
+	display:grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap:20px;
+	align-items:center;
+}
+.slider-container-child img {
+	width:100%;
+	height:auto;
 }

@@ -5,6 +5,8 @@ import SectionFirst from './components/SectionFirst';
 import SectionSecond from './components/SectionSecond';
 import SectionThree from './components/SectionThree';
 import SectionFour from './components/SectionFour';
+import SectionFive from './components/SectionFive';
+import SectionSix from './components/SectionSix';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
 		<SectionSecond />
 		<SectionThree />
 		<SectionFour />
+		<SectionFive />
+		<SectionSix />
     </div>
   );
 }
