@@ -37,6 +37,7 @@ const SectionSix = () => {
 				<div className="slider-container">
 					<Splide options={{
 						type: 'loop',
+						lazyLoad: 'nearby',
 						autoplay: true,
 						rewind: true,
 						perPage: 4,
@@ -47,37 +48,37 @@ const SectionSix = () => {
 					}}>
 						<SplideSlide>
 							<div className="slider-container-child">
-								<img src={SliderImage} alt="slider 1" width="283" height="188" />
+								<img src={SliderImage} data-splide-lazy={SliderImage} alt="slider 1" width="283" height="188" />
 								<p>Slide 1</p>
 							</div>
 						</SplideSlide>
 						<SplideSlide>
 							<div className="slider-container-child">
-								<img src={SliderImage} alt="slider 2" width="283" height="188" />
+								<img src={SliderImage} data-splide-lazy={SliderImage} alt="slider 2" width="283" height="188" />
 								<p>Slide 2</p>
 							</div>
 						</SplideSlide>
 						<SplideSlide>
 							<div className="slider-container-child">
-								<img src={SliderImage} alt="slider 3" width="283" height="188" />
+								<img src={SliderImage} data-splide-lazy={SliderImage} alt="slider 3" width="283" height="188" />
 								<p>Slide 3</p>
 							</div>
 						</SplideSlide>
 						<SplideSlide>
 							<div className="slider-container-child">
-								<img src={SliderImage} alt="slider 4" width="283" height="188" />
+								<img src={SliderImage} data-splide-lazy={SliderImage} alt="slider 4" width="283" height="188" />
 								<p>Slide 4</p>
 							</div>
 						</SplideSlide>	
 						<SplideSlide>
 							<div className="slider-container-child">
-								<img src={SliderImage} alt="slider 5" width="283" height="188" />
+								<img src={SliderImage} alt="slider 5" data-splide-lazy={SliderImage} width="283" height="188" />
 								<p>Slide 5</p>
 							</div>
 						</SplideSlide>
 						<SplideSlide>
 							<div className="slider-container-child">
-								<img src={SliderImage} alt="slider 6" width="283" height="188" />
+								<img src={SliderImage} alt="slider 6" data-splide-lazy={SliderImage} width="283" height="188" />
 								<p>Slide 6</p>
 							</div>
 						</SplideSlide>
