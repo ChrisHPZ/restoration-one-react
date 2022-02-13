@@ -39,27 +39,24 @@ a:visited {
 }
 #section-first {
   background: url("./images/section-first-bg.jpg");
-  background-repeat: no-repeat;
   background-position: top left;
-  background-size: cover;
 }
 #section-three {
   background: url("./images/about-bg-new-min-optim.jpg");
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: cover;
+  
 }
 #section-five {
   background: url("./images/section-five-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: cover;
 }
 #section-seven {
   background: url("./images/section-seven-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: cover;
+}
+#section-three,
+#section-five,
+#section-seven {
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: cover;
 }
 .gradient {
   background: linear-gradient(
@@ -245,7 +242,7 @@ form.get-help-now button {
   justify-content: flex-end;
 }
 .dark-blue-bg {
-  background: #001641;
+  background: rgb(0, 22, 65);
 }
 .white-bg {
 	background:white;
@@ -265,4 +262,39 @@ form.get-help-now button {
 }
 .pt-30 {
 	padding-top:30px;
+}
+@media screen and (max-width:1206px) {
+	.grid-six-column {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.grid-four-column {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.container {
+		text-align:center;
+	}
+	.grid-two-column,
+	.grid-three-column {
+		display:flex;
+		flex-direction:column;
+	}
+	.tar {
+		text-align: center;
+	}
+	img {
+		max-width:100%;
+	}
+	.grid-two-column-child img {
+		width:auto;
+		display:block;
+		clear:both;
+		margin:0 auto 20px auto;
+	}
+	.flex-end {
+		justify-content:center;
+	}
+	.main-nav ul {
+		display: grid;
+		grid-template-columns: repeat(3,1fr);
+	}
 }
